@@ -1,0 +1,38 @@
+/* WebSocket.css */
+
+/* Container styles */
+.container {
+    padding: 20px;
+}
+
+/* Datepicker styles */
+.react-datepicker-wrapper {
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+button {
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #f8f8f8;
+}
+
+/* Reverse the list order */
+ul li {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+# Use the Amazon Corretto base image
+FROM amazoncorretto:17-alpine
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the JAR file into the container at /app
+COPY user_microservice/target/ds-user-micro.jar /app/
+
+# Expose the port that the application runs on
+EXPOSE 8080
+
+# Command to run the application
+CMD ["java", "-jar", "ds-user-micro.jar"]
+
